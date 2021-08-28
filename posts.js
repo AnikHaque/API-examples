@@ -9,9 +9,9 @@ displayPosts = (posts) => {
     console.log(posts)
 
 const allPost = document.getElementById('all-post');
-allPost.classList.add('hello')
-for(const post of posts){
 
+for(const post of posts){
+    allPost.classList.add('hello')
 const heading = document.createElement('h3');
 heading.classList.add('post')
 heading.innerHTML = `
