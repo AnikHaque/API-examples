@@ -5,6 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Api</title>
+    <style>
+        .post{
+
+            background-color: burlywood;
+            width: 50%;
+            margin-left: 400px;
+            padding: 30px;
+            color: white;
+            border: 2px solid blueviolet;
+            border-radius: 20px;
+            font-size: 15px;
+            
+        }
+        .hello{
+            background-color: darkgrey;
+            padding: 20px;
+            
+        }
+    </style>
    
 <!-- bootstrap css linkup  -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -12,17 +31,26 @@
 </head>
 <body>
    <h1>Hello Api</h1> 
+   <!-- display users  -->
    <ul id="show">
+    </ul>
 
-   </ul>
+   <!-- display posts  -->
+<section id="all-post" class="">
+
+</section>
+
+
    <button onclick="loadData()">Load data</btn-dark>
    <button onclick="loadUsers()">Load user</btn-dark>
    <button onclick="displayUsers()">Display</btn-dark>
+   <button onclick="postsData()">DisplayPosts</btn-dark>
 
    <!-- js linkup  -->
-   <!-- <script src="json.js"></script> -->
-   <!-- <script src="jsonplaceholder.js"></script> -->
-   <!-- <script src="functionApi.js"></script> -->
-   <script src="displayData.js"></script>
+    <!-- <script src="json.js"></script>
+   <script src="jsonplaceholder.js"></script> 
+   <script src="functionApi.js"></script> 
+   <script src="displayData.js"></script> -->
+   <script src="posts.js"></script>
 </body>
 </html>
